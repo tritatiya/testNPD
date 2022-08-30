@@ -1,0 +1,30 @@
+.container-item{
+    border: 1px solid;
+    margin-top: 5rem;
+    background-color: #FFF5E4;
+    display: flex;
+
+}
+
+.pic-item{
+    flex: 0.7;
+    display: flex;
+    justify-content: center;
+}
+.pic-item img{
+    width: 30rem;
+}
+
+.main-item{
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+
+.main-item .size div{
+    display: flex;
+    gap: 1rem;
+}
